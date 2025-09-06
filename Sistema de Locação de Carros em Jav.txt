@@ -1,0 +1,33 @@
+Sistema de Locação de Carros em Java
+
+Este é um projeto de sistema de locação de carros desenvolvido em Java utilizando o ambiente NetBeans.
+
+Recursos:
+
+Cadastro, edição e exclusão de usuários do sistema.
+Cadastro, edição e exclusão de clientes.
+Cadastro, edição e exclusão de veículos disponíveis para locação.
+Alocação de veículos para clientes.
+Geração de relatórios detalhados sobre usuários, clientes e veículos no sistema e histórico de locações.
+
+Tecnologias Utilizadas:
+Java
+NetBeans IDE
+MySQL
+Xampp
+
+Bibliotecas:
+java.sql.*
+javax.swing.JOptionPane
+javax.swing.table.DefaultTableModel
+java.time.LocalDate
+java.time.temporal.ChronoUnit
+net.proteanit.sql.DbUtils
+br.com.vroom.dal_cad.Principal
+java.awt.Color
+java.text.DateFormat
+java.util.Date
+mysql-connector-j-8.4.0
+
+Instruções de Uso:
+Para utilizar o sistema é necessário fazer a instalação e conexão de um banco de dados (A conexão do banco de dados foi feita na classe Principal.java)
